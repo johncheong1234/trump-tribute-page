@@ -1,0 +1,91 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+#main{
+    font-family: Helvetica;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 7px dotted lightgrey;
+}
+
+#title{
+    background: lightgrey;
+    width: 100%;
+    margin-bottom: 20px;
+    font-family: cursive;
+}
+
+#title p{
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+#title h1{
+    font-size: 57px;
+    letter-spacing: 1px;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+    height: 300;
+}
+
+#img-div{
+    color: white;
+    background-color: darkgrey;
+}
+
+#img-caption p{
+    margin: 5px;
+    text-align: center
+}
+
+.quote{
+    text-align: center
+}
+
+.timeline{
+    background: white;
+    height: auto;
+}
+
+.timeline h2{
+    padding: 25px 0px 0px 40px;
+}
+
+ul{
+    padding-bottom: 10px;
+}
+
+li{
+    margin: 10px;
+}
+
+#tribute-info{
+    background: darkgrey;
+    margin-top: 40px;
+    padding: 20px;
+    text-align: left;
+    line-height: 120%;
+}
+
+footer{
+    background: darkgrey;
+}
+
+footer p{
+    color: white;
+    padding: 10px;
+}
+
+a{
+    color: white;
+}
+
+span{
+    color: white;
+}
